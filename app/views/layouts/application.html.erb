@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ploxey Coffee Co</title>
+    <title>Ploxey's Coffee Co</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    
+    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
   </head>
 
   <body>
+    <nav>
+      <p id='title'>
+        Ploxey's Coffee Co
+      <p>
+    </nav>
     <%= yield %>
   </body>
 </html>
