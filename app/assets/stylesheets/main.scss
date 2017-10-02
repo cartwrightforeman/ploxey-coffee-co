@@ -11,3 +11,32 @@ nav {
   font-size: 40px;
   font-family: 'Aladin', cursive;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.navlinks {
+  padding-top: 43px;
+  padding-right: 20px;
+}
+
+.navlinks:hover {
+  text-decoration: underline;
+}
