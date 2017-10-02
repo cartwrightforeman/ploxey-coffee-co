@@ -1,0 +1,58 @@
+nav {
+  color: white;
+  background-color: black;
+  margin: -16px -8px 0px;
+}
+
+#title {
+  margin: 15px 0px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-size: 40px;
+  font-family: 'Aladin', cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.navlinks {
+  padding-top: 43px;
+  padding-right: 20px;
+}
+
+.navlinks:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 519px) {
+  #title {
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  ul .navlinks {
+    margin-top: -5px;
+    margin-left: -20px;
+  }
+
+  .navlinks {
+    font-size: 15px;
+  }
+}

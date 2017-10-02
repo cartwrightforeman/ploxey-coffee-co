@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ploxey Coffee Co</title>
+    <title>Ploxey's Coffee Co</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Aladin|Lato" rel="stylesheet">
   </head>
 
   <body>
+    <nav>
+      <ul>
+        <!-- work on a mobile responsive navbar next -->
+        <li><a href='/' id='title'> Ploxey's Coffee Co </a></li>
+        <li><a href='/menu' class="navlinks"> Menu </a></li>
+        <li><a href='/about' class="navlinks"> About </a></li>
+        <li><a href='/contact' class="navlinks"> Contact </a></li>
+      </ul>
+    </nav>
     <%= yield %>
   </body>
 </html>
