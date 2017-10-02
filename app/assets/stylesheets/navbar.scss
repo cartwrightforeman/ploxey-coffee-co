@@ -40,3 +40,19 @@ li a {
 .navlinks:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 519px) {
+  #title {
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  ul .navlinks {
+    margin-top: -5px;
+    margin-left: -20px;
+  }
+
+  .navlinks {
+    font-size: 15px;
+  }
+}
