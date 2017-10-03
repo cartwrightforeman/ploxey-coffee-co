@@ -17,6 +17,10 @@ footer a {
   padding: 10px;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer ul li a {
   display: inline-block;
 }
