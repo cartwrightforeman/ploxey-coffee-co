@@ -12,8 +12,7 @@
 
   <body>
     <nav>
-      <ul>
-        <!-- work on a mobile responsive navbar next -->
+      <ul >
         <li><a href='/' id='title'> Ploxey's Coffee Co </a></li>
         <li><a href='/menu' class="navlinks"> Menu </a></li>
         <li><a href='/about' class="navlinks"> About </a></li>
@@ -21,5 +20,11 @@
       </ul>
     </nav>
     <%= yield %>
+    <footer>
+      <a href='/menu' class="footlinks"> Menu </a>
+      <a href='/about' class="footlinks"> About </a>
+      <a href='/contact' class="footlinks"> Contact </a>
+      <p> 2017 | Cartwright Foreman </p>
+    </footer>
   </body>
 </html>
