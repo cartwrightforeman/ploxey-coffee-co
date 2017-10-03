@@ -1,0 +1,36 @@
+footer {
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 10px;
+  height: 70px;
+}
+
+footer ul {
+  margin-bottom: -13px;
+}
+
+footer a {
+  font-family: 'Lato', sans-serif;
+  float: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer ul li a {
+  display: inline-block;
+}
+
+footer p {
+  background-color: #545454;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+}

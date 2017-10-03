@@ -2,6 +2,7 @@ nav {
   color: white;
   background-color: black;
   margin: -16px -8px 0px;
+  padding-left: 5vw;
 }
 
 #title {
@@ -26,7 +27,6 @@ li {
 li a {
   display: block;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
@@ -41,7 +41,10 @@ li a {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 562px) {
+  nav {
+    padding-left: 0px;
+  }
   #title {
     padding-left: 20px;
     font-size: 30px;
@@ -54,5 +57,12 @@ li a {
 
   .navlinks {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  ul .navlinks {
+    font-size: 1px;
+    visibility: hidden;
   }
 }
