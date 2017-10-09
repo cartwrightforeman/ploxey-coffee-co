@@ -6,11 +6,8 @@ footer {
   left: 0;
   text-align: center;
   padding-top: 10px;
+  margin: -8px;
   height: 70px;
-}
-
-footer ul {
-  margin-bottom: -13px;
 }
 
 footer a {
@@ -19,7 +16,10 @@ footer a {
   color: white;
   text-decoration: none;
   padding: 10px;
-  margin-top: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 footer ul li a {
