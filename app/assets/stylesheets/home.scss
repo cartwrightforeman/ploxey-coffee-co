@@ -1,6 +1,3 @@
-body {
-  background-color: white;
-}
 .steam {
   background-color: black;
   float: right;
@@ -16,4 +13,35 @@ body {
   position: absolute;
   top: 6.7vw;
   left: 6vw;
+}
+
+.ingredients {
+  // background-color: #946d9a;
+}
+
+.coffee_image {
+  height: 783.76px;
+  width: 1448.4px;
+  margin-left: -31px;
+}
+
+@media screen and (max-width: 717px) {
+  .roasted{
+    font-size: 75px;
+  }
+
+  .steam {
+    // 900 x 487
+    padding-right: 100px;
+    height: 243.5px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .roasted{
+    font-size: 50px;
+    top: 14%;
+    left: 7%;
+  }
 }
